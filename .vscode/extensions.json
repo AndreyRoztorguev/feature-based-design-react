@@ -3,6 +3,6 @@
     "rodrigovallades.es7-react-js-snippets",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "ms-vscode.vscode-typescript-next"
+    "vitest.explorer"
   ]
 }

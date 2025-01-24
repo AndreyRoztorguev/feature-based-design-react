@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["vitest/globals"],
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "target": "ES2020",
     "useDefineForClassFields": true,
@@ -41,8 +42,8 @@
       "@/utils": ["./src/utils"],
       "@/app": ["./src/app"],
       "@/*": ["./src/*"]
-    },
-    "typeRoots": ["node_modules/@types", "src/types/*"]
+    }
   },
+  // "include": [],
   "include": ["src"]
 }
